@@ -1,0 +1,153 @@
+@media  (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    .main-section {
+        padding: 120 50px;
+    }
+
+    .main-contant-container {
+        max-width: 700px;
+        margin-top: 80px;
+        padding: 0 25px;
+    }
+
+    h1 {
+        position: relative; right: 90px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+
+    
+    
+    .main-contant-container {
+        max-width: 500px;
+    }
+
+    .main-button-container{
+margin-top: 70px;
+    }
+
+    h1 {
+        font-size: 16px;
+    position: relative; right:150px ;
+       
+    }
+
+    button {
+      width: 50px;
+      height: 50px;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+
+    .footer-container {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 440px){
+    .nav-menu {
+        display:block;
+    }
+body {
+    max-width: 440px;
+}
+
+.main-section {
+    display: block;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+.footer-container{
+    display: block;
+    
+}
+
+.footer-container {
+    margin-left: 0px;
+}
+
+.main-button-container {
+    display: flex;
+    flex-direction: row;
+}
+button {
+    margin: 20px;
+}
+
+li {
+    margin: 5px;
+}
+
+h1 {
+    position: relative; right: 250px;
+}
+
+.logo-img-png {
+margin-top: 30px;
+
+}
+
+.footer-logo-img-png {
+    float: right;
+    margin-right: 20px;
+    
+}
+}
+
+@media (max-width: 320px) {
+
+    body{
+        max-width: 320px;
+    }
+
+    .logo-img-png{
+        width: 120px;
+        height: 80px;
+    }
+        
+     .footer-logo-img {
+        float: right;
+        
+     }
+     .footer-logo-img-png {
+        width: 120px;
+        height: 80px;  
+     }
+
+     h1 {
+         position: relative;right: 320px
+     }
+
+     ul {
+         display: block;
+         column-count: 3;
+         margin-top: 0;
+     }
+     .footer-container li {
+         margin-top: 0;
+     }
+
+     .nav-menu-main li {
+         margin-top: 0;
+     }
+     } 
+
